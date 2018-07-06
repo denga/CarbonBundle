@@ -4,14 +4,14 @@
     "type": "symfony-bundle",
     "license": "MIT",
     "require": {
-        "sensio/framework-extra-bundle": "3.*",
-        "symfony/form": "~2.3|~3.0",
-        "nesbot/Carbon": "*"
+        "sensio/framework-extra-bundle": "^3.0|^4.0|^5.0",
+        "symfony/form": "^2.3|^3.0|^4.0",
+        "nesbot/Carbon": "^1.0"
     },
     "autoload": {
         "psr-4": { "LightSuner\\CarbonBundle\\": "src/" }
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.5"
+        "phpunit/phpunit": "^6.5|^7.0"
     }
 }
